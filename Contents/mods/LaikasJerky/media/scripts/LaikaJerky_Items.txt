@@ -110,4 +110,54 @@ module LJ
             Tags                = AlreadyCooked;HideCooked,
         }
 
+        item FrogJerkyRaw
+        {
+            DisplayName         = Raw Frog Jerky,
+            DisplayCategory     = Food,
+            Type                = Food,
+            Weight              = 0.15,
+            Icon                = FishJerky,
+	    	DangerousUncooked   = TRUE,
+            BadInMicrowave      = true,
+            IsCookable          = TRUE,
+            FoodType            = Game,
+            DaysFresh           = 2,
+		    DaysTotallyRotten   = 4,
+            MinutesToCook       = 720,
+            MinutesToBurn       = 1440,
+            HungerChange        = -7.5,
+            UnhappyChange       = 20,
+            Calories            = 49.5,
+            Carbohydrates       = 0.0,
+            Lipids              = 0.21,
+            Proteins            = 10.95,
+            StaticModel         = BeefJerky,
+            WorldStaticModel    = FishJerky,
+            ReplaceOnCooked     = LJ.BirdJerky,
+        }
+
+    item FrogJerky
+        {
+            DisplayName         = Frog Jerky,
+            DisplayCategory     = Food,
+            Type                = Food,
+            Weight              = 0.15,
+            Icon                = FishJerky,
+            BadInMicrowave      = true,
+            IsCookable          = TRUE,
+            MinutesToCook       = 0,
+            MinutesToBurn       = 720,
+            EvolvedRecipe       = Stew:10;Pie:10;Stir fry Griddle Pan:10;Stir fry:10;Sandwich:5;Sandwich Baguette:5;Salad:5;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+            FoodType            = Game,
+            HungerChange        = -10.5,
+            DaysFresh           = 30,
+            DaysTotallyRotten   = 60,
+            Calories            = 49.5,
+            Carbohydrates       = 0.0,
+            Lipids              = 0.21,
+            Proteins            = 10.95,
+            StaticModel         = BeefJerky,
+            WorldStaticModel    = FishJerky,
+            Tags                = AlreadyCooked;HideCooked,
+        }
 }
