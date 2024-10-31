@@ -163,7 +163,7 @@ module LJ
 
         item RodentJerkyRaw
         {
-            DisplayName         = Raw Frog Jerky,
+            DisplayName         = Raw Rodent Jerky,
             DisplayCategory     = Food,
             Type                = Food,
             Weight              = 0.15,
@@ -189,7 +189,7 @@ module LJ
 
     item RodentJerky
         {
-            DisplayName         = Frog Jerky,
+            DisplayName         = Rodent Jerky,
             DisplayCategory     = Food,
             Type                = Food,
             Weight              = 0.15,
@@ -207,6 +207,57 @@ module LJ
             Carbohydrates       = 2.5,
             Lipids              = 3.62,
             Proteins            = 22.5,
+            StaticModel         = BeefJerky,
+            WorldStaticModel    = FishJerky,
+            Tags                = AlreadyCooked;HideCooked,
+        }
+
+        item RabbitJerkyRaw
+        {
+            DisplayName         = Raw Rabbit Jerky,
+            DisplayCategory     = Food,
+            Type                = Food,
+            Weight              = 0.15,
+            Icon                = FishJerky,
+	    	DangerousUncooked   = TRUE,
+            BadInMicrowave      = true,
+            IsCookable          = TRUE,
+            FoodType            = Game,
+            DaysFresh           = 2,
+		    DaysTotallyRotten   = 4,
+            MinutesToCook       = 720,
+            MinutesToBurn       = 1440,
+            HungerChange        = -15,
+            UnhappyChange       = 20,
+            Calories            = 484.5,
+            Carbohydrates       = 10,
+            Lipids              = 10,
+            Proteins            = 92.5,
+            StaticModel         = BeefJerky,
+            WorldStaticModel    = FishJerky,
+            ReplaceOnCooked     = LJ.BirdJerky,
+        }
+
+    item RabbitJerky
+        {
+            DisplayName         = Rabbit Jerky,
+            DisplayCategory     = Food,
+            Type                = Food,
+            Weight              = 0.15,
+            Icon                = FishJerky,
+            BadInMicrowave      = true,
+            IsCookable          = TRUE,
+            MinutesToCook       = 0,
+            MinutesToBurn       = 720,
+            EvolvedRecipe       = Stew:10;Pie:10;Stir fry Griddle Pan:10;Stir fry:10;Sandwich:5;Sandwich Baguette:5;Salad:5;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+            FoodType            = Game,
+            HungerChange        = -24,
+            DaysFresh           = 30,
+            DaysTotallyRotten   = 60,
+            Calories            = 484.5,
+            Carbohydrates       = 10,
+            Lipids              = 10,
+            Proteins            = 92.5,
             StaticModel         = BeefJerky,
             WorldStaticModel    = FishJerky,
             Tags                = AlreadyCooked;HideCooked,
