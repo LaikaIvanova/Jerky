@@ -22,4 +22,10 @@ module Base
 		scale = 0.6,
 	}
 
+	model RodentJerky
+	{
+		mesh = WorldItems/BeefJerky,
+		texture = WorldItems/PoultryJerky,
+		scale = 0.6,
+	}
 }
