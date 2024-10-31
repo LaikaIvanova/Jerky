@@ -5,6 +5,9 @@ General:
 - added Fish Jerky
 - added Raw Bird Jerky
 - added Bird Jerky
+- added Frog Jerky
+- added Rodent Jerky
+- added Rabbit Jerky
 
 ----------------------------------------------------------------------------------------------------------------------------
 
