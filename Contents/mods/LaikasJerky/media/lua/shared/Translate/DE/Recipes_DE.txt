@@ -5,4 +5,5 @@ Recipe_MakeFishJerky = "Getrocknete Fischstreifen",
 Recipe_MakeBirdJerky = "Getrocknete Vogelstreifen",
 Recipe_MakeFrogJerky = "Getrocknete Froschstreifen",
 Recipe_MakeRodentJerky = "Getrocknete Rattentreifen",
+Recipe_MakeRabbitJerky = "Getrocknete Hasenstreifen",
 }
