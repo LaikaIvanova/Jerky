@@ -1,8 +1,8 @@
 LaikaJerky_ItemName_DE= {
 -- Laika's Jerky
     -- Food
-ItemName_LJ.FishJerkyRaw = "Geschnittenes Fischfilet",
+ItemName_LJ.FishJerkyRaw = "Geschnittener Fisch",
 ItemName_LJ.FishJerky = "Getrockneter Fisch",
-ItemName_LJ.BirdJerkyRaw = "Geschnittenes Vogelfleisch",
+ItemName_LJ.BirdJerkyRaw = "Geschnittener Vogel",
 ItemName_LJ.BirdJerky = "Getrockneter Vogel",
 }
