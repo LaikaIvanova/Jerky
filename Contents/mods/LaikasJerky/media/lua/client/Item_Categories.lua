@@ -6,3 +6,5 @@ TweakItem("LJ.BirdJerkyRaw","DisplayCategory","Nahrung_[Verderblich]");
 TweakItem("LJ.BirdJerky","DisplayCategory","Nahrung_[Verderblich]");
 TweakItem("LJ.FrogJerkyRaw","DisplayCategory","Nahrung_[Verderblich]");
 TweakItem("LJ.FrogJerky","DisplayCategory","Nahrung_[Verderblich]");
+TweakItem("LJ.RodentJerkyRaw","DisplayCategory","Nahrung_[Verderblich]");
+TweakItem("LJ.RodentJerky","DisplayCategory","Nahrung_[Verderblich]");
