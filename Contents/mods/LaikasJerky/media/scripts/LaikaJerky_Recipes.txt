@@ -28,4 +28,14 @@ module LaikaJerky
         Time:150,
     }
 
+    recipe MakeFrogJerky
+    {
+        keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+        FrogMeat;20,
+
+        Result:FrogJerkyRaw,
+        NeedToBeLearn:false,
+        Category:Cooking,
+        Time:150,
+    }
 }
