@@ -1,4 +1,8 @@
 require("ItemTweaker_Copy_CC");
 -- Food
-TweakItem("LJ.FishJerkyRaw","DisplayCategory","Nahrung_[Haltbar]");
+TweakItem("LJ.FishJerkyRaw","DisplayCategory","Nahrung_[Verderblich]");
 TweakItem("LJ.FishJerky","DisplayCategory","Nahrung_[Verderblich]");
+TweakItem("LJ.BirdJerkyRaw","DisplayCategory","Nahrung_[Verderblich]");
+TweakItem("LJ.BirdJerky","DisplayCategory","Nahrung_[Verderblich]");
+TweakItem("LJ.FrogJerkyRaw","DisplayCategory","Nahrung_[Verderblich]");
+TweakItem("LJ.FrogJerky","DisplayCategory","Nahrung_[Verderblich]");
