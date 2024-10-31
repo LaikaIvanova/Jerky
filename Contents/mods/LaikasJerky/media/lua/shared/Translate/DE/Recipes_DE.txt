@@ -3,4 +3,5 @@ LaikaJerky_Recipe_DE= {
     -- Recipes
 Recipe_MakeFishJerky = "Getrocknete Fischstreifen",
 Recipe_MakeBirdJerky = "Getrocknete Vogelstreifen",
+Recipe_MakeFrogJerky = "Getrocknete Froschstreifen",
 }
