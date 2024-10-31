@@ -38,4 +38,15 @@ module LaikaJerky
         Category:Cooking,
         Time:150,
     }
+
+    recipe MakeRodentJerky
+    {
+        keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+        Smallanimalmeat;20,
+
+        Result:RodentJerkyRaw,
+        NeedToBeLearn:false,
+        Category:Cooking,
+        Time:150,
+    }
 }
