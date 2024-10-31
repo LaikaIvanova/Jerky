@@ -49,4 +49,15 @@ module LaikaJerky
         Category:Cooking,
         Time:150,
     }
+
+    recipe MakeRabbitJerky
+    {
+        keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+        Rabbitmeat;20,
+
+        Result:RabbitJerkyRaw,
+        NeedToBeLearn:false,
+        Category:Cooking,
+        Time:150,
+    }
 }
