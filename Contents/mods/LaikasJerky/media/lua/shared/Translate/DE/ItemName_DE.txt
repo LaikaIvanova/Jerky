@@ -7,4 +7,6 @@ ItemName_LJ.BirdJerkyRaw = "Geschnittener Vogel",
 ItemName_LJ.BirdJerky = "Getrockneter Vogel",
 ItemName_LJ.FrogJerkyRaw = "Geschnittener Frosch",
 ItemName_LJ.FrogJerky = "Getrockneter Frosch",
+ItemName_LJ.RodentJerkyRaw = "Geschnittene Ratte",
+ItemName_LJ.RodentJerky = "Getrocknete Ratte",
 }
