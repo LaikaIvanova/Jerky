@@ -1,0 +1,113 @@
+module LJ
+{
+
+    imports
+    {
+        Base
+    }
+
+    /* ------------- Jerkies ------------------- */
+
+    item FishJerkyRaw
+        {
+            DisplayName         = Raw Fish Jerky,
+            DisplayCategory     = Food,
+            Type                = Food,
+            Weight              = 0.15,
+            Icon                = FishJerky,
+	    	DangerousUncooked   = TRUE,
+            BadInMicrowave      = true,
+            IsCookable          = TRUE,
+            FoodType            = Fish,
+            DaysFresh           = 2,
+		    DaysTotallyRotten   = 4,
+            MinutesToCook       = 720,
+            MinutesToBurn       = 1440,
+            HungerChange        = -18.75,
+            UnhappyChange       = 20,
+            Calories            = 153.75,
+            Carbohydrates       = 0.75,
+            Lipids              = 9.13,
+            Proteins            = 21.39,
+            StaticModel         = BeefJerky,
+            WorldStaticModel    = FishJerky,
+            ReplaceOnCooked     = LJ.FishJerky,
+        }
+
+    item FishJerky
+        {
+            DisplayName         = Fish Jerky,
+            DisplayCategory     = Food,
+            Type                = Food,
+            Weight              = 0.15,
+            Icon                = FishJerky,
+            BadInMicrowave      = true,
+            IsCookable          = TRUE,
+            MinutesToCook       = 0,
+            MinutesToBurn       = 720,
+            EvolvedRecipe       = Stew:10;Pie:10;Stir fry Griddle Pan:10;Stir fry:10;Sandwich:5;Sandwich Baguette:5;Salad:5;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+            FoodType            = Fish,
+            HungerChange        = -23.43,
+            DaysFresh           = 30,
+            DaysTotallyRotten   = 60,
+            Calories            = 153.75,
+            Carbohydrates       = 0.75,
+            Lipids              = 9.13,
+            Proteins            = 21.39,
+            StaticModel         = BeefJerky,
+            WorldStaticModel    = FishJerky,
+            Tags                = AlreadyCooked;HideCooked,
+        }
+
+     item BirdJerkyRaw
+        {
+            DisplayName         = Raw Bird Jerky,
+            DisplayCategory     = Food,
+            Type                = Food,
+            Weight              = 0.15,
+            Icon                = FishJerky,
+	    	DangerousUncooked   = TRUE,
+            BadInMicrowave      = true,
+            IsCookable          = TRUE,
+            FoodType            = Game,
+            DaysFresh           = 2,
+		    DaysTotallyRotten   = 4,
+            MinutesToCook       = 720,
+            MinutesToBurn       = 1440,
+            HungerChange        = -11.25,
+            UnhappyChange       = 20,
+            Calories            = 195.75,
+            Carbohydrates       = 3.75,
+            Lipids              = 6.19,
+            Proteins            = 67.50,
+            StaticModel         = BeefJerky,
+            WorldStaticModel    = FishJerky,
+            ReplaceOnCooked     = LJ.BirdJerky,
+        }
+
+    item BirdJerky
+        {
+            DisplayName         = Bird Jerky,
+            DisplayCategory     = Food,
+            Type                = Food,
+            Weight              = 0.15,
+            Icon                = FishJerky,
+            BadInMicrowave      = true,
+            IsCookable          = TRUE,
+            MinutesToCook       = 0,
+            MinutesToBurn       = 720,
+            EvolvedRecipe       = Stew:10;Pie:10;Stir fry Griddle Pan:10;Stir fry:10;Sandwich:5;Sandwich Baguette:5;Salad:5;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+            FoodType            = Game,
+            HungerChange        = -14.06,
+            DaysFresh           = 30,
+            DaysTotallyRotten   = 60,
+            Calories            = 195.75,
+            Carbohydrates       = 3.75,
+            Lipids              = 6.19,
+            Proteins            = 67.50,
+            StaticModel         = BeefJerky,
+            WorldStaticModel    = FishJerky,
+            Tags                = AlreadyCooked;HideCooked,
+        }
+
+}

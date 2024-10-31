@@ -1,0 +1,31 @@
+module LaikaJerky
+{
+
+    imports
+    {
+        Base
+    }
+    
+    recipe MakeFishJerky
+    {
+        keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+        [Recipe.GetItemTypes.FishMeat];20,
+
+        Result:FishJerkyRaw,
+        NeedToBeLearn:false,
+        Category:Cooking,
+        Time:150,
+    }
+
+    recipe MakeBirdJerky
+    {
+        keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+        Smallbirdmeat;20,
+
+        Result:BirdJerkyRaw,
+        NeedToBeLearn:false,
+        Category:Cooking,
+        Time:150,
+    }
+
+}

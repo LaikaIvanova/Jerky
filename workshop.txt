@@ -1,0 +1,6 @@
+version=1
+id=3355858365
+title=LaikasJerky
+description=Adds Jerky.
+tags=Build 41
+visibility=unlisted

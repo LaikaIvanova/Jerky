@@ -1,0 +1,6 @@
+LaikaJerky_Recipe_DE= {
+-- Laika's Jerky
+    -- Recipes
+Recipe_MakeFishJerky = "Getrocknete Fischstreifen",
+Recipe_MakeBirdJerky = "Getrocknete Vogelstreifen",
+}
